@@ -17,7 +17,7 @@ pipeline {
         sh 'echo "hello word"'
       }
     }
-    stage('') {
+    stage('online') {
       steps {
         sh 'echo "hello"'
       }
